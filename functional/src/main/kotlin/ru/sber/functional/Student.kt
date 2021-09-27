@@ -6,7 +6,7 @@ data class Student(
     val middleName: String,
     val age: Int,
     val averageRate: Double,
-    val city: String,
-    val specialization: String,
-    val prevEducation: String?,
+    val city: String = "Специализация отсутствует",
+    val specialization: String = "Специализация отсутствует",
+    val prevEducation: String? = null,
 )
